@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game UC Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Game UC Store</h1>
+  </header>
+
+  <section class="verify-section">
+    <h2>Enter Player ID</h2>
+    <input type="text" id="playerId" placeholder="Enter your ID">
+    <button onclick="verifyId()">Verify</button>
+    <p id="verifyMessage"></p>
+  </section>
+
+  <section class="pricing">
+    <h2>Select UC Package</h2>
+    <div class="package">
+      <img src="coin.png" alt="UC">
+      <p>5000 UC - ₹1000</p>
+    </div>
+    <div class="package">
+      <img src="coin.png" alt="UC">
+      <p>15000 UC - ₹2000</p>
+    </div>
+    <div class="package">
+      <img src="coin.png" alt="UC">
+      <p>25000 UC - ₹2500</p>
+    </div>
+    <div class="package">
+      <img src="coin.png" alt="UC">
+      <p>50000 UC - ₹4500</p>
+    </div>
+    <div class="package">
+      <img src="coin.png" alt="UC">
+      <p>100000 UC - ₹5000</p>
+    </div>
+  </section>
+
+  <section class="payment">
+    <h2>Scan & Pay</h2>
+    <img src="qr.png" alt="QR Code" class="qr">
+    <p>UPI ID: <strong>shariff.12@superyes</strong></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
