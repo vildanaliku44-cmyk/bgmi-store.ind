@@ -1,0 +1,11 @@
+function verifyId() {
+  const id = document.getElementById('playerId').value;
+  const message = document.getElementById('verifyMessage');
+  if (id.trim() === '') {
+    message.textContent = "❌ Please enter a valid ID";
+    message.style.color = "red";
+  } else {
+    message.textContent = "✅ ID Verified!";
+    message.style.color = "lightgreen";
+  }
+}
